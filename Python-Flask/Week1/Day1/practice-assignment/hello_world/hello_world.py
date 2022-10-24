@@ -21,3 +21,6 @@ print(f"I love to eat {fave_food1} and {fave_food2}.")
 
 
 
+
+
+
