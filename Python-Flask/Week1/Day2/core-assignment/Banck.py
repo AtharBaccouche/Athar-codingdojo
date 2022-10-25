@@ -27,10 +27,10 @@ class BankAccount:
             self.balance+=(self.balance*self.int_rate)
         return self
 
-@classmethod
-def print_all_accounts(cls):
-    for account in cls.accounts:
-        account.display_account_info()
+    @classmethod
+    def print_all_accounts(cls):
+        for account in cls.accounts:
+            account.display_account_info()
 
 
 
@@ -42,4 +42,3 @@ account1.deposit(300).deposit(200).deposit(100).withdraw(70).display_account_inf
 account2.deposit(300).deposit(200).withdraw(100).withdraw(70).withdraw(20).withdraw(30).display_account_info().yield_interest()
 BankAccount.print_all_accounts()
 
-    
