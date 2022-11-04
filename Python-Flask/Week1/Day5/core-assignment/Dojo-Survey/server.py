@@ -20,7 +20,10 @@ def process():
 def success():
     return render_template("success.html")
 
-
+@app.route('logout')
+def logout():
+    session.clear()
+    return redirect('/')
 
 if __name__=="__main__":
     app.run(debug=True)

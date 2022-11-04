@@ -1,0 +1,4 @@
+SELECT * FROM names;
+insert into names (names) values ("athar") ;
+INSERT INTO names (names) 
+VALUES('Safa'),('asma');
