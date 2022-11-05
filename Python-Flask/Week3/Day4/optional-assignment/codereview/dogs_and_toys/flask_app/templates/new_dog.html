@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="text text-center"> add your dog</h1>
+    <form action="/dogs/create" method="post">
+        <div class="form-group">
+            <label for="name">Dog name</label>
+            <input class="form-control"  type="text" name="name">
+        </div>
+        <div class="form-group">
+            <label for="age">Age</label>
+            <input  class="form-control" type="text" name="age">
+        </div>
+        <div class="form-group">
+            <label for="hair_color"> Hair_color</label>
+            <input class="form-control"  type="text" name="hair_color">
+        </div>
+        <button class="btn btn-success">Add Dog</button>
+    </form>
+    <div>
+        <a class="btn btn-danger" href="/">Dashboard</a>
+    </div>
+
+</body>
+</html>
