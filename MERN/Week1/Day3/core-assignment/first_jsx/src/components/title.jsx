@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Title extends Component {
   render() {
     return (
-      <div>
+    <div>
         <h1>Hello dojo!</h1>
         <h4>Things I need to do:</h4>
         <ul>
@@ -12,11 +12,7 @@ export default class Title extends Component {
             <li>Run a marathon</li>
             <li>feed the dogs</li>
         </ul>
-      
-      
-      
-      
-      </div>
+    </div>
     )
   }
 }
