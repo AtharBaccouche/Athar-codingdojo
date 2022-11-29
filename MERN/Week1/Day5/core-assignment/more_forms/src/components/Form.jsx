@@ -68,7 +68,9 @@ function UserForm(){
     
     
     return(
-        <form  onSubmit={ createUser }>
+        <>
+        <p className="title">Login Form</p>
+        <form  className="Ap" onSubmit={ createUser }>
             <h3>{ formMessage() }</h3>
             <div >
                 <label>First Name: </label> 
@@ -96,11 +98,12 @@ function UserForm(){
             </div>
             <p>{formErrors.confirmpassword}</p>
             
-            <input type="submit" value="Create User" />
+            <input type="submit" style={{ backgroundColor: "#a1eafb" }}  value="Create User" />
             <pre>{JSON.stringify(formValues, undefined,2)} </pre>
 
             
         </form>
+        </>
         
 
 

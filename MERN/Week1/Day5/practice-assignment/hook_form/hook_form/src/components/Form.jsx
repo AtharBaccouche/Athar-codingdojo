@@ -17,7 +17,7 @@ const UserForm = (props) => {
     return(
         <>
         <p className="title">Login Form</p>
-        <form className="App" onSubmit={ createUser }>
+        <form className="Ap" onSubmit={ createUser }>
             <div >
                 <label>First Name: </label> 
                 <input type="text" onChange={ (e) => setFirstname(e.target.value) } />
