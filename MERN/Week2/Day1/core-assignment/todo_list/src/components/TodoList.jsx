@@ -21,7 +21,7 @@ const TodoList = () => {
         const filtredList=list.filter(task => task.id!==id)
         setList(filtredList)
     }
-    //aDD tASK TO LOCALSTORAGE
+    //ADD tASK TO LOCALSTORAGE
     useEffect(()=>{
         localStorage.setItem('tasks',JSON.stringify(list));
     },[list])
